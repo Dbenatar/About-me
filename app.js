@@ -1,6 +1,5 @@
 let user = prompt("Hello, what is your name?");
 alert("Hello " + user + ", welcome");
-document.write("Hello " + user + ", welcome");
 
 let first = true;
 let second = false;
