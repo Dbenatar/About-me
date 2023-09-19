@@ -13,9 +13,11 @@ if (first && third && fourth) {
 let coffee = prompt("Do I like to drink coffee?");
 
 if (coffee === "yes" || coffee === "y") {
-  console.log("Correct!");
+  alert("Correct!");
+  //console.log("Correct!");
 } else {
-  console.log("Sorry my friend, you are incorrect");
+  alert("Sorry my friend, my blood is mostly caffeine");
+  //console.log("Sorry my friend, you are incorrect");
 }
 //console.log(coffee);
 //console.log(coffee.toLowerCase());
@@ -23,18 +25,23 @@ if (coffee === "yes" || coffee === "y") {
 let chef = prompt("Am I a classically trained chef?");
 
 if (chef === "no" || chef === "n") {
-  console.log("Correct!");
+  alert("Correct!");
+  //console.log("Correct!");
 } else {
-  console.log("Not classically, I learnt on the job");
+  alert("YES CHEF! I mean no, im not classically trained.");
+  //console.log("Not classically, I learnt on the job");
 }
 //console.log(chef);
 //console.log(chef.toLowerCase());
 
 let jurassic = prompt("Do I like Jurassic Park?");
+
 if (jurassic === "yes" || jurassic === "y") {
-  console.log("Like life, you found a way!");
+  alert("Like life, you found a way!");
+  //console.log("Like life, you found a way!");
 } else {
-  console.log("Try again");
+  alert("Try again");
+  //console.log("Try again");
 }
 
 //console.log(jurassic);
@@ -43,9 +50,11 @@ if (jurassic === "yes" || jurassic === "y") {
 let coding = prompt("Do I have any previous coding experience?");
 
 if (coding === "yes" || coding === "y") {
-  console.log("I have a little bit of experience.");
+  alert("I have a little bit of experience.");
+  //console.log("I have a little bit of experience.");
 } else {
-  console.log("I dont have much but I do have some experience");
+  alert("I dont have much but I do have some experience");
+  //console.log("I dont have much but I do have some experience");
 }
 
 //console.log(coding)
@@ -54,9 +63,11 @@ if (coding === "yes" || coding === "y") {
 let pineapple = prompt("Should pineapple go on pizza?");
 
 if (pineapple === "no" || pineapple === "n") {
-  console.log("Get in the bin!");
+  alert("Get in the bin!");
+  //console.log("Get in the bin!");
 } else {
-  console.log("If you think yes, then im sorry. Get in the bin");
+  alert("If you think yes, then im sorry. Get in the bin");
+  //console.log("If you think yes, then im sorry. Get in the bin");
 }
 
 //console.log(pineapple);
