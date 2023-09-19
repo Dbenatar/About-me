@@ -1,6 +1,7 @@
 let user = prompt("Hello, what is your name?");
 alert("Hello " + user + ", welcome");
 
+
 let first = true;
 let second = false;
 let third = true;
@@ -73,6 +74,7 @@ function quizzical() {
     alert("If you think yes, then im sorry. Get in the bin");
     //console.log("If you think yes, then im sorry. Get in the bin");
   }
+  confirm("Thank you for taking my little quiz " + user);
 }
 //console.log(pineapple);
 //console.log(pineapple.toLowerCase());
