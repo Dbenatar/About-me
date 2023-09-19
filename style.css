@@ -1,0 +1,53 @@
+body {
+  background-color: #a5acaf;
+}
+
+header {
+  background-color: #002244;
+  border: 0.5px solid #69be28;
+  border-radius: 10px;
+  color: #a5acaf;
+  padding: 8px;
+  box-shadow: 0 0 30px 0 #69be28, 0 0 30px 0 #69be28, 0 0 10px 0 #69be28 inset;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #002244;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  margin: 5% 5%;
+}
+
+div {
+  padding: aut;
+}
+
+p {
+  color: #002244;
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.2em;
+}
+button {
+  background-color: #002244;
+  border: 0.5px solid #69be28;
+  border-radius: 10px;
+  color: #a5acaf;
+  padding: 8px;
+  box-shadow: 0 0 30px 0 #69be28, 0 0 30px 0 #69be28, 0 0 10px 0 #69be28 inset;
+  margin: 5% 5%;
+}
+
+h3 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #002244;
+  margin: 5% 5%;
+}
+
+li {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #002244;
+  margin: 2% 5%;
+}
