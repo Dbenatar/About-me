@@ -1,7 +1,6 @@
 let user = prompt("Hello, what is your name?");
 alert("Hello " + user + ", welcome");
 
-
 let first = true;
 let second = false;
 let third = true;
@@ -68,7 +67,7 @@ function quizzical() {
   let pineapple = prompt("Should pineapple go on pizza?");
 
   if (pineapple === "no" || pineapple === "n") {
-    alert("Get in the bin!");
+    alert("Pizza with pineapple should get in the bin!");
     //console.log("Get in the bin!");
   } else {
     alert("If you think yes, then im sorry. Get in the bin");
