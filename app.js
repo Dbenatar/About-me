@@ -7,15 +7,18 @@ let third = true;
 let fourth = true;
 let fifth = false;
 
-if (first && third && fourth) {
-  console.log("Correct, first, third and fourth are all true!");
-} else if (second || fifth) {
-  console.log("second and fifth were false");
-}
+//if (first && third && fourth) {
+//console.log("Correct, first, third and fourth are all true!");
+//} else if (second || fifth) {
+//console.log("second and fifth were false");
+//}
 
 function quizzical() {
-  let coffee = prompt("Do I like to drink coffee?");
+  let coffee = prompt("Do I like to drink coffee?").toLowerCase().trim();
 
+  while (coffee !== "yes" && coffee !== "no") {
+    coffee = prompt("Yes or no?").toLowerCase().trim();
+  }
   if (coffee === "yes" || coffee === "y") {
     alert("Correct!");
     //console.log("Correct!");
@@ -26,7 +29,11 @@ function quizzical() {
   //console.log(coffee);
   //console.log(coffee.toLowerCase());
 
-  let chef = prompt("Am I a classically trained chef?");
+  let chef = prompt("Am I a classically trained chef?").toLowerCase().trim();
+
+  while (chef !== "yes" && chef !== "no") {
+    coffee = prompt("Yes or no?").toLowerCase().trim();
+  }
 
   if (chef === "no" || chef === "n") {
     alert("Correct!");
@@ -38,7 +45,11 @@ function quizzical() {
   //console.log(chef);
   //console.log(chef.toLowerCase());
 
-  let jurassic = prompt("Do I like Jurassic Park?");
+  let jurassic = prompt("Do I like Jurassic Park?").toLowerCase().trim();
+
+  while (jurassic !== "yes" && jurassic !== "no") {
+    coffee = prompt("Yes or no?").toLowerCase().trim();
+  }
 
   if (jurassic === "yes" || jurassic === "y") {
     alert("Like life, you found a way!");
@@ -51,7 +62,13 @@ function quizzical() {
   //console.log(jurassic);
   //console.log(jurassic.toLowerCase());
 
-  let coding = prompt("Do I have any previous coding experience?");
+  let coding = prompt("Do I have any previous coding experience?")
+    .toLowerCase()
+    .trim();
+
+  while (coding !== "yes" && coding !== "no") {
+    coffee = prompt("Yes or no?").toLowerCase().trim();
+  }
 
   if (coding === "yes" || coding === "y") {
     alert("I have a little bit of experience.");
@@ -64,7 +81,11 @@ function quizzical() {
   //console.log(coding)
   //console.log(coding.toLowerCase());
 
-  let pineapple = prompt("Should pineapple go on pizza?");
+  let pineapple = prompt("Should pineapple go on pizza?").toLowerCase().trim();
+
+  while (pineapple !== "yes" && pineapple !== "no") {
+    coffee = prompt("Yes or no?").toLowerCase().trim();
+  }
 
   if (pineapple === "no" || pineapple === "n") {
     alert("Pizza with pineapple should get in the bin!");
