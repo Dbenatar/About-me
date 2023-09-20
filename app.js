@@ -14,6 +14,7 @@ let fifth = false;
 //}
 
 function quizzical() {
+  let score = 0;
   let coffee = prompt("Do I like to drink coffee?").toLowerCase().trim();
 
   while (coffee !== "yes" && coffee !== "no") {
@@ -22,9 +23,11 @@ function quizzical() {
   if (coffee === "yes" || coffee === "y") {
     alert("Correct!");
     //console.log("Correct!");
+    score++;
   } else {
     alert("Sorry my friend, my blood is mostly caffeine");
     //console.log("Sorry my friend, you are incorrect");
+    console.log(score);
   }
   //console.log(coffee);
   //console.log(coffee.toLowerCase());
@@ -38,6 +41,7 @@ function quizzical() {
   if (chef === "no" || chef === "n") {
     alert("Correct!");
     //console.log("Correct!");
+    score++;
   } else {
     alert("YES CHEF! I mean no, im not classically trained.");
     //console.log("Not classically, I learnt on the job");
@@ -54,6 +58,7 @@ function quizzical() {
   if (jurassic === "yes" || jurassic === "y") {
     alert("Like life, you found a way!");
     //console.log("Like life, you found a way!");
+    score++;
   } else {
     alert("Try again");
     //console.log("Try again");
@@ -73,6 +78,7 @@ function quizzical() {
   if (coding === "yes" || coding === "y") {
     alert("I have a little bit of experience.");
     //console.log("I have a little bit of experience.");
+    score++;
   } else {
     alert("I dont have much but I do have some experience");
     //console.log("I dont have much but I do have some experience");
@@ -90,10 +96,13 @@ function quizzical() {
   if (pineapple === "no" || pineapple === "n") {
     alert("Pizza with pineapple should get in the bin!");
     //console.log("Get in the bin!");
+    score++;
   } else {
     alert("If you think yes, then im sorry. Get in the bin");
     //console.log("If you think yes, then im sorry. Get in the bin");
   }
+
+  alert("Congratulations, you got " + score + " /5");
   confirm("Thank you for taking my little quiz " + user);
 }
 //console.log(pineapple);
