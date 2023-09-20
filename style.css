@@ -37,17 +37,28 @@ button {
   color: #a5acaf;
   padding: 8px;
   box-shadow: 0 0 30px 0 #69be28, 0 0 30px 0 #69be28, 0 0 10px 0 #69be28 inset;
-  margin: 5% 5%;
+  margin: 5% 50%;
+}
+
+button:active {
+  transform: translateY(4px);
 }
 
 h3 {
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: #002244;
   margin: 5% 5%;
+  text-decoration: underline;
 }
 
 li {
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: #002244;
   margin: 2% 5%;
+}
+
+footer {
+  text-align: center;
+  background-color: #002244;
+  color: #a5acaf;
 }

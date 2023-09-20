@@ -100,10 +100,10 @@ function quizzical() {
   } else {
     alert("If you think yes, then im sorry. Get in the bin");
     //console.log("If you think yes, then im sorry. Get in the bin");
+    //console.log(pineapple);
+    //console.log(pineapple.toLowerCase());
   }
 
   alert("Congratulations, you got " + score + " /5");
   confirm("Thank you for taking my little quiz " + user);
 }
-//console.log(pineapple);
-//console.log(pineapple.toLowerCase());
