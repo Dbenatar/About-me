@@ -107,3 +107,15 @@ function quizzical() {
   alert("Congratulations, you got " + score + " /5");
   confirm("Thank you for taking my little quiz " + user);
 }
+
+let answer = 37;
+let number = prompt("Can you guess my age?");
+let attempts = 4;
+
+while (attempts > 1) {
+  attempts--;
+  if (number > answer) {
+    alert("Ouch! Im not that old yet");
+    number = prompt("Try again. You have " + attempts + " left");
+  }
+}
