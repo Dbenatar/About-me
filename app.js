@@ -106,16 +106,43 @@ function quizzical() {
 
   alert("Congratulations, you got " + score + " /5");
   confirm("Thank you for taking my little quiz " + user);
-}
 
-let answer = 37;
-let number = prompt("Can you guess my age?");
-let attempts = 4;
+  let answer = 37;
+  let number = prompt("Can you guess my age?");
+  let attempts = 4;
 
-while (attempts > 1) {
-  attempts--;
-  if (number > answer) {
-    alert("Ouch! Im not that old yet");
-    number = prompt("Try again. You have " + attempts + " left");
+  while (attempts > 1) {
+    attempts--;
+    if (number > answer) {
+      alert("Ouch! Im not that old yet");
+      number = prompt("Try again. You have " + attempts + " left");
+    } else if (number < answer) {
+      alert("I appreciate the ego boost but no.");
+      number = prompt("Try again. You have " + attempts + " left");
+    } else if (parseInt(number) === answer) {
+      alert("That's right, downhill to 40");
+      break;
+    }
+  }
+
+  if (parseInt(number) !== answer) {
+    alert("My sense of humour may suggest that I am younger, I am 37");
+  }
+
+  let continents = [
+    "Asia",
+    "Oceania",
+    "Africa",
+    "South America",
+    "North America",
+  ];
+
+  let arrAns = "South America";
+  let attempts6 = 6;
+
+  let contGuess = prompt("Which continent have I not visited?");
+
+  if (continents.indexOf(contGuess) !== -1) {
+    alert("Thats right! I havent been to " + contGuess);
   }
 }
