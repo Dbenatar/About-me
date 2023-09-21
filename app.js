@@ -136,13 +136,15 @@ function quizzical() {
     "South America",
     "North America",
   ];
-
   let arrAns = "South America";
   let attempts6 = 6;
+  while (attempts6 > 1) {
+    attempts6--;
+    let contGuess = prompt("Which continents have I visited?");
 
-  let contGuess = prompt("Which continent have I not visited?");
-
-  if (continents.indexOf(contGuess) !== -1) {
-    alert("Thats right! I havent been to " + contGuess);
+    if (continents.indexOf(contGuess) !== -1) {
+      alert("I have been to " + contGuess);
+    } else if (contGuess === arrAns);
+    alert("I want to one day visit " + arrAns);
   }
 }
