@@ -140,11 +140,12 @@ function quizzical() {
   let attempts6 = 6;
   while (attempts6 > 1) {
     attempts6--;
-    let contGuess = prompt("Which continents have I visited?");
+    let contGuess = prompt("Which continents have I visited?").toLowerCase()
+      .trim;
 
     if (continents.indexOf(contGuess) !== -1) {
-      alert("I have been to " + contGuess);
+      alert("I have never been to " + arrAns);
     } else if (contGuess === arrAns);
-    alert("I want to one day visit " + arrAns);
+    alert("Yes and one I want to visit " + arrAns);
   }
 }
